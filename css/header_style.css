@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&display=swap");
+body {
+  font-family: Arial, "Noto Sans TC", sans-serif;
+}
+.navbg {
+  background-color: #ebc57c;
+}
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 3.6vw;
+  }
+  .dropdown-item-font{
+    font-size: 3.4vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .nav-link {
+    font-size: 3.2vw;
+  }
+  .dropdown-item-font{
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .nav-link {
+    font-size: 1.3vw;
+  }
+  .dropdown-item-font{
+    font-size: 1.2vw;
+  }
+}
+.nav-link {
+  color: rgb(100, 100, 100) !important;
+  font-weight: 500;
+}
+#navindex {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  width: 70px;
+}
+.dropdown-item {
+  color: #f2ab39;
+  padding-left: 25px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+.dropdown .dropdown-item:hover,
+.dropdown .dropdown-item:focus {
+  color: #fff;
+  background-color: #f2ab39;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #313131 !important;
+}
+.navmr {
+  margin-top: 40px;
+}
+.aaa {
+  height: 40px;
+}
+
+.Register a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .Register {
+    margin-top: 1.7vh;
+    text-align: right;
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .Register {
+    margin-top: 0.6vh;
+    text-align: right;
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .Register {
+    margin-top: 1vh;
+    text-align: right;
+    font-size: 1vw;
+  }
+}
+.regword {
+  padding-left: 8px;
+}
+.shopword {
+  padding-left: 9px;
+}
+.header-img img {
+  width: 32px;
+  height: 32px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+nav .nav-item {
+  margin-left: 12px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.dropdown-submenu a:link,
+.dropdown-submenu a:active,
+.dropdown-submenu a:visited {
+  text-decoration: none;
+  color: #4b463e;
+  display: block;
+}
+.dropdown-submenu a:hover,
+.dropdown-submenu a:focus {
+  text-decoration: none;
+  color: #5c50ff;
+  display: block;
+}
+.bg-red {
+  background-color: rgba(255, 0, 0, 0.8);
+  font-size: 90%;
+}

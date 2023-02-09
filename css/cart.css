@@ -1,0 +1,33 @@
+.noneBorder {
+  border: none;
+}
+#content-mid .cart-table-responsive-md {
+  margin-top: 80px;
+}
+.table-responsive-md table td {
+  text-align: center;
+}
+.text-right {
+  text-align: right !important;
+}
+.table td {
+  vertical-align: middle;
+}
+.totalborder {
+  border-bottom: 2px solid rgb(188, 188, 188) !important;
+}
+tbody .color-red {
+  color: red;
+}
+tbody a{
+    text-decoration: none;
+}
+thead .color_orange{
+    color: rgb(255, 174, 0);
+}
+tfoot .color_gray{
+    color: rgb(88, 88, 88);
+}
+.table-responsive-md table tbody tr:hover{
+  background-color: rgba(0, 238, 255, 0.5);
+}

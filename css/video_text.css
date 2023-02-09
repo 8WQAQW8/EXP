@@ -1,0 +1,52 @@
+#content-mid .rowGov {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 77, 77);
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  #content-mid .rowGov p {
+    font-size: 4.2vw;
+  }
+  #content-mid .rowGov span {
+    font-size: 3.2vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #content-mid .rowGov p {
+    font-size: 3.6vw;
+  }
+  #content-mid .rowGov span {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #content-mid .rowGov p {
+    font-size: 2.2vw;
+  }
+  #content-mid .rowGov span {
+    font-size: 1.5vw;
+  }
+}
+#content-mid .vd {
+  margin-top: 60px;
+}
+#content-mid .vd i {
+  color: #ec790e;
+}
+#content-mid .vdd {
+  margin: 0 auto;
+}
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

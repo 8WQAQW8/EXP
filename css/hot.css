@@ -1,0 +1,51 @@
+@media only screen and (min-width: 600px) {
+  #content-mid h1 i {
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #content-mid h1 i {
+    margin-right: 8px;
+  }
+}
+#content-mid .cardborder {
+  width: 100%;
+}
+#content-mid .cardborder:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+@media only screen and (min-width: 900px) {
+  #content-mid .card-body a {
+    margin-right: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .owl-carousel .hotbutton .btn {
+    padding: 0.275rem 0.55rem;
+    font-size: 3.2vw;
+    margin: 0 1.2vw 1.6vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .owl-carousel .hotbutton .btn {
+    padding: 0.275rem 0.55rem;
+    font-size: 2vw;
+    margin: 0 1vw 1vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .owl-carousel .hotbutton .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 1vw;
+    margin: 0 1vw 1vw;
+  }
+}
+#content-mid .card-body .cardprice {
+  color: red;
+}
+#content-mid .pic i {
+  color: #ff0000;
+}

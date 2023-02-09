@@ -1,0 +1,36 @@
+.registermust {
+  color: red;
+}
+.card-body .text-center.mt-3 a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  #codeimg {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #codeimg {
+    width: 35%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #codeimg {
+    width: 25%;
+  }
+}
+label.error,
+    label.error:before {
+        color: rgb(250, 36, 36);
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+
+    label.valid,
+    label.valid:before {
+        font-family: "Font Awesome 6 Free";
+        color: rgb(0, 204, 109);
+        font-weight: 900;
+        font-size: 1.3em;
+        content: "\f00c";
+    }

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+  .PayNav {
+    padding: 0.37rem 0.74rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .PayNav {
+    padding: 0.5rem 1rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .PayNav {
+    padding: 0.5rem 1rem;
+  }
+}
+.CheckoutHr {
+  border: 2px solid rgb(206, 158, 0);
+  color: rgb(206, 158, 0);
+  opacity: 1;
+}
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+.table td {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .CheckoutTheadFont {
+    font-size: 3.2vw;
+  }
+  .CheckoutTbodyFont {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .CheckoutTheadFont {
+    font-size: 3vw;
+  }
+  .CheckoutTbodyFont {
+    font-size: 2.8vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .CheckoutTheadFont {
+    font-size: 1.2vw;
+  }
+  .CheckoutTbodyFont {
+    font-size: 1vw;
+  }
+}

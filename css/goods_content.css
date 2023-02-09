@@ -1,0 +1,56 @@
+.card .row.mt-2 .col-md-3 a > img:hover {
+  border: #08dd6b 3px inset;
+}
+.card .row.mt-2 .col-md-3 a > img {
+  border: transparent 3px inset;
+}
+.color-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.fancybox__caption {
+  font-weight: bold;
+  background-color: rgb(179, 182, 27);
+  border-radius: 8px;
+  padding: 0px !important;
+  margin-top: 1vh !important;
+
+  text-align: center;
+}
+#content-mid .pic.hotcart {
+  margin-top: 120px;
+}
+@media only screen and (max-width: 600px) {
+  .fancybox__caption {
+    font-size: 6.6vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .fancybox__caption {
+    font-size: 6vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .fancybox__caption {
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .goodpx-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .goodpx-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .goodpx-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}

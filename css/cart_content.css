@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+  .table-responsive-md .table .cartpic {
+    width: 22%;
+  }
+  .table-responsive-md .table .cartname {
+    width: 30%;
+  }
+  .table-responsive-md .table .cartprice {
+    width: 10%;
+  }
+  .table-responsive-md .table .cartqty {
+    width: 22%;
+  }
+  .table-responsive-md .table .cartdel {
+    width: 8%;
+  }
+  .table-responsive-md .table .carttotal {
+    width: 8%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .table-responsive-md .table .cartpic {
+    width: 20%;
+  }
+  .table-responsive-md .table .cartname {
+    width: 25%;
+  }
+  .table-responsive-md .table .cartprice {
+    width: 15%;
+  }
+  .table-responsive-md .table .cartqty {
+    width: 15%;
+  }
+  .table-responsive-md .table .cartdel {
+    width: 10%;
+  }
+  .table-responsive-md .table .carttotal {
+    width: 15%;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  .table tfoot .tfootcolspn {
+    width: 55%;
+  }
+  .table tfoot .tfootprice {
+    width: 20%;
+  }
+  .table tfoot .tfoottotal {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .table tfoot .tfootcolspn {
+    width: 75%;
+  }
+  .table tfoot .tfootprice {
+    width: 10%;
+  }
+  .table tfoot .tfoottotal {
+    width: 15%;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  .CartDelFont {
+    font-size: 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 900px) {
+
+}
